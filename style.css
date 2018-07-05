@@ -1,0 +1,164 @@
+body {
+	font-family: 'Raleway', sans-serif;
+	margin: 0 auto;
+	background-color: #C6EADD;
+	text-align: center;
+}
+
+hr {
+	margin: 2em auto;
+	width: 500px;
+}
+
+nav {
+	top: 0;
+	position: fixed;
+	background-color: #C6EADD;
+	padding: 10px;
+	width: 100%;
+	z-index: 1;
+}
+
+footer {
+	position: fixed;
+	background-color: gray;
+	padding: 15px;
+	width: 100%;
+	bottom: 0;
+	margin: 0 auto;
+}
+	footer img {
+		display: inline-block;
+		height: 30px;
+		margin-right: 27px;
+	}
+
+.container {
+	margin: 170px auto 100px auto;
+	width: 90%;
+}
+
+h1 {
+	margin: 20px;
+	font-size: 45px;
+	font-weight: 600;
+}
+a {
+	text-decoration: none;
+	font-size: 25px;
+	color: #008081;
+}
+.words {
+	font-size: 18px;
+	color: gray;
+	margin-top: 15px;
+	text-align: center;
+	width: 500px;
+	margin: 0 auto;
+}
+
+/* Section: Home */
+
+#home {
+
+}
+
+.title {
+	margin: 0 auto;
+	margin-top: 20px;
+	font-size: 90px;
+	font-weight: 200;
+
+}
+.bodytext {
+	margin: 0 auto;
+	font-size: 15px;
+	margin-bottom: 5px;
+}
+
+.links {
+	width: 500px;
+	margin: 0 auto;
+}
+
+.button {
+	font-size: 30px;
+	margin: 10px;
+	background-color: #E8FFF5;
+	cursor: pointer;
+	color: gray;
+}
+	.button #one {
+		transition: 0.3s;
+	}
+
+	.button #two {
+		transition: 0.3s;
+	}
+
+	.button #three {
+		transition: 0.3s;
+	}
+
+/* Section: About Me */ 
+
+#info {
+	margin: 0 auto;
+	background-color: #C6EADD;
+	text-align: center;
+}
+
+	#info img {
+		height: 200px;
+		margin: 0 0 20px;
+	}
+
+
+/* Photos */
+
+#gallery {
+	margin: 0 auto;
+	background-color: #C6EADD;
+	display: block;
+	margin-bottom: -30px;
+}
+	.photo-container {
+		background: white;
+		display: inline-block;
+		margin: 0 15px 30px;
+	    padding: 10px 10px 25px;
+	    position: relative;
+	    text-align: center;
+	    z-index: 0;
+
+	}
+
+	.photo {
+		margin-bottom: 12px;
+		transition: 0.3s;
+	}
+
+		.photo img {
+			height: 250px;
+		}
+
+	.photo:hover {
+		opacity: 0.75;
+	}
+
+/* Section: Recipes */
+
+#recipes {
+	margin: 0 auto 80px auto;
+	background-color: #C6EADD;
+	text-align: center;
+}
+
+#scrollbutton {
+	margin: 0 auto;
+	cursor: pointer;
+}
+
+	#scrollbutton img {
+		height: 40px;
+	}
