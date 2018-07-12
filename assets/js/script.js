@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(document).ready(function(){
 	$('#scrollbutton').click(function(){
 		$('html').animate({scrollTop : 0}, 300);
 	});
